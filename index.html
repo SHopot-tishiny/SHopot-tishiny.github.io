@@ -5,10 +5,20 @@
   <title>ООО "Шёпот тишины"</title>
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  
-  <!-- Стили Telegraph для сохранения внешнего вида -->
+
+  <!-- Стили Telegraph -->
   <link href="https://telegra.ph/css/quill.core.min.css" rel="stylesheet">
   <link href="https://telegra.ph/css/core.min.css?47" rel="stylesheet">
+
+  <style>
+    /* Плотнее текст и меньше расстояния */
+    .tl_article_content p {
+      margin: 6px 0 !important;
+    }
+    .tl_article_header address {
+      display: none; /* Убираем дату */
+    }
+  </style>
 </head>
 
 <body>
@@ -18,9 +28,6 @@
 
         <header class="tl_article_header" dir="auto">
           <h1>ООО "Шёпот тишины"</h1>
-          <address>
-            <time datetime="2025-11-09">November 09, 2025</time>
-          </address>
         </header>
 
         <article class="tl_article_content">
